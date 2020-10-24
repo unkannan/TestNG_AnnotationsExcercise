@@ -52,6 +52,10 @@ public class AppTest {
 	public void TC7() {
 		System.out.println("This is a 7 testcase");
 	}
+	@Test
+	public void TC8() {
+		System.out.println("This is a 8 testcase");
+	}
 	
 	@AfterMethod
 	public void Close_Browser(){
