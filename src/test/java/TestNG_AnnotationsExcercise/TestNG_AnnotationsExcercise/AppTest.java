@@ -44,6 +44,11 @@ public class AppTest {
 		System.out.println("This is a 5 testcase");
 	}
     
+	@Test
+	public void TC6() {
+		System.out.println("This is a 5 testcase");
+	}
+	
 	@AfterMethod
 	public void Close_Browser(){
 		System.out.println("Close Browser and post conditions");
